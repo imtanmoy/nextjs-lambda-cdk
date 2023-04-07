@@ -1,0 +1,43 @@
+{
+  "name": "nextjs-lambda-cdk",
+  "version": "0.1.0",
+  "private": true,
+  "bin": "cdk/bin.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cdk:build": "tsc --project tsconfig.cdk.json",
+    "cdk:watch": "tsc -w --project tsconfig.cdk.json",
+    "cdk:test": "jest --config=jest.cdk.config.js",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.2.4",
+    "node-fetch": "3.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "0.31.3",
+    "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "3.294.0",
+    "@types/aws-lambda": "8.10.114",
+    "@types/node": "18.15.3",
+    "@types/source-map-support": "0.5.6",
+    "autoprefixer": "10.4.14",
+    "aws-cdk": "2.69.0",
+    "aws-cdk-lib": "2.69.0",
+    "aws-lambda": "1.0.7",
+    "constructs": "10.1.280",
+    "postcss": "8.4.21",
+    "source-map-support": "0.5.21",
+    "tailwindcss": "3.2.7",
+    "ts-node": "10.9.1"
+  }
+}
